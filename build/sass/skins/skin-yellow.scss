@@ -3,16 +3,16 @@
  * ------------
  */
 
-@import "../../bootstrap-less/mixins.less";
-@import "../../bootstrap-less/variables.less";
-@import "../variables.less";
-@import "../mixins.less";
+@import "../../bootstrap/mixins";
+@import "../../bootstrap/variables";
+@import "../variables";
+@import "../mixins";
 
 .skin-yellow {
   //Navbar
   .main-header {
     .navbar {
-      .navbar-variant($yellow; #fff);
+      @include navbar-variant($yellow, #fff);
       .sidebar-toggle {
         color: #fff;
         &:hover {
@@ -37,9 +37,9 @@
     }
     //Logo
     .logo {
-      .logo-variant(darken($yellow, 5%));      
+      @include logo-variant(darken($yellow, 5%));
     }
-    
+
     li.user-header {
       background-color: $yellow;
     }
@@ -51,5 +51,5 @@
   }
 
   //Create the sidebar skin
-  .skin-dark-sidebar($yellow);
+  @include skin-dark-sidebar($yellow);
 }

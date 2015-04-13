@@ -172,7 +172,7 @@
     }
     input[type="text"] {
       color: #666;
-      @include border-radius(2px !important, 0 !important, 2px !important, 0 !important);
+      @include border-radius-each(2px !important, 0 !important, 2px !important, 0 !important);
       &:focus, &:focus + .input-group-btn .btn {
         background-color: #fff;
         color: #666;
@@ -183,7 +183,7 @@
     }
     .btn {
       color: #999;
-      @include border-radius(0 !important, 2px !important, 0 !important, 2px !important);
+      @include border-radius-each(0 !important, 2px !important, 0 !important, 2px !important);
     }
   }
 }
@@ -277,7 +277,7 @@
     }
     input[type="text"] {
       color: #666;
-      @include border-radius(2px !important, 0 !important, 2px !important, 0 !important);
+      @include border-radius-each(2px !important, 0 !important, 2px !important, 0 !important);
       &:focus,
         &:focus + .input-group-btn .btn {
         background-color: #fff;
@@ -289,7 +289,7 @@
     }
     .btn {
       color: #999;
-      @include border-radius(0 !important, 2px !important, 0 !important, 2px !important);
+      @include border-radius-each(0 !important, 2px !important, 0 !important, 2px !important);
     }
   }
   @media(min-width: $screen-sm-min) {
