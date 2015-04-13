@@ -1,3 +1,4 @@
+.git
 *.DS_Store
 .idea
 /nbproject/private/
@@ -6,3 +7,6 @@
 TODO
 *.zip
 test.html
+/build/.sass-cache/
+/build/sass/.sass-cache/
+/dist/
