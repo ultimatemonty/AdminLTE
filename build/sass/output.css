@@ -1,0 +1,64 @@
+/*
+Error: File to import not found or unreadable: ../bootstrap/mixins.
+       Load paths:
+         
+        on line 15 of .\sass\AdminLTE.scss
+
+10: @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+11: 
+12: //Bootstrap Variables & Mixins
+13: //The core bootstrap code have not been modified. These files
+14: //are included only for refrence.
+15: @import '../bootstrap/mixins';
+16: @import '../bootstrap/variables';
+17: 
+18: //MISC
+19: //----
+20: @import 'core';
+
+Backtrace:
+.\sass\AdminLTE.scss:15
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:66:in `rescue in import'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:45:in `import'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:157:in `visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:8:in `visit'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:285:in `render_with_sourcemap'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `each'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:293:in `watch'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin.rb:108:in `method_missing'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/exec/sass_scss.rb:50:in `process_result'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/exec/base.rb:52:in `parse'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/exec/base.rb:19:in `parse!'
+E:/Development/windows/Ruby/lib/ruby/gems/1.9.1/gems/sass-3.4.10/bin/sass:13:in `<top (required)>'
+E:/Development/Windows/Ruby/bin/sass:23:in `load'
+E:/Development/Windows/Ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../bootstrap/mixins.\A        Load paths:\A          \A         on line 15 of .\sass\AdminLTE.scss\A \A 10: @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);\A 11: \A 12: //Bootstrap Variables & Mixins\A 13: //The core bootstrap code have not been modified. These files\A 14: //are included only for refrence.\A 15: @import '../bootstrap/mixins';\A 16: @import '../bootstrap/variables';\A 17: \A 18: //MISC\A 19: //----\A 20: @import 'core';"; }
